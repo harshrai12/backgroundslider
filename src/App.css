@@ -1,0 +1,65 @@
+/* App.css */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+*{
+  margin: 0%;
+  font-family: 'Montserrat', sans-serif;
+}
+.app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-image: url('https://images.unsplash.com/photo-1682685797743-3a7b6b8d8149?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=1000&q=60');
+}
+
+/* Add other styles as needed */
+
+
+.card-container {
+  display: flex;
+  margin-top: 200px;
+  margin-left: 150px;
+}
+
+.card {
+  width: 120px;
+  height: 180px;
+  border: 1px solid #000;
+  border-radius: 10px;
+
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  overflow: hidden; /* To prevent image overflow */
+}
+
+.card p{
+  position: absolute;
+  font-size: 15px;
+  color: aliceblue;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover; /* To fit the image within the specified dimensions */
+}
+
+.card-name {
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.imagename h1{
+  margin-top:-300px;
+  color: aliceblue;
+}
