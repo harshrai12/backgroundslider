@@ -62,4 +62,10 @@
 .imagename h1{
   margin-top:-300px;
   color: aliceblue;
+  font-size: 100px;
+}
+
+.imagename h3{
+  color: aliceblue;
+  font-size: 50px;
 }
